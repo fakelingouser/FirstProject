@@ -16,4 +16,9 @@ func main() {
 	if err != nil {
 		fmt.Println("Failed to write to Test.txt")
 	}
+
+	f1, err := os.Open("test1.txt")
+	b1 := make([]byte, 5)
+	_, err = f1.Read(b1)
+	fmt.Println(b1)
 }
