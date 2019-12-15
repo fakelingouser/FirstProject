@@ -21,4 +21,9 @@ func main() {
 	b1 := make([]byte, 5)
 	_, err = f1.Read(b1)
 	fmt.Println(b1)
+
+	f2, err := os.Open("test2.txt")
+	b2 := make([]byte, 5)
+	_, err = f2.Read(b2)
+	fmt.Println(b2)
 }
