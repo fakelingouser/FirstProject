@@ -1,2 +1,4 @@
 tenets:
-- import: codelingo/effective-go/avoid-annotations-in-comments
+- import: codelingo/effective-go/defer-close-file
+specs:
+- import: codelingo/effective-go/defer-close-file
